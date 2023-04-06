@@ -1,0 +1,69 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Water+Brush&family=Work+Sans:wght@200;400&display=swap');
+
+.b_Travelers{
+    display: flex;
+    justify-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+.title_Travelers{
+    text-align: center;
+    font-family: 'Water Brush';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 67px;
+    color: #CD1A40;
+}
+
+.description_Travelers{
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+}
+
+.extended_dec_Travelers{
+    max-width: 780px;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E1E1E;
+}
+/* Фото кращих мандрівників flex */
+
+.photos_Travelers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+.photos_Travelers > img{
+    width: 380px;
+    height: 486px;
+    margin: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* grid */
+/* .photos_Travelers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.photos_Travelers > img{
+    width: 380px;
+    height: 486px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} */
